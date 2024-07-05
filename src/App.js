@@ -4,6 +4,7 @@ import Welcome from './components/Welcome';
 import Timekeeper from './components/Timekeeper';
 import OnOffControl from './components/OnOffControl';
 import Blog from './components/Blog';
+import Form from './components/Form';
 
 function App() {
   const userInfo = {
@@ -37,8 +38,9 @@ function App() {
 
   return (
     <>
+      <Form />
+      {/*
       <Blog posts={posts}/>
-      {/* 
       <Welcome user="Kazu"/>
       <Welcome user="Fumiko"/>
       <Welcome user="Kohtake"/>
